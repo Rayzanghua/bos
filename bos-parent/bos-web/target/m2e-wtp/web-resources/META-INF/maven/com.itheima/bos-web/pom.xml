@@ -7,4 +7,12 @@
   </parent>
   <artifactId>bos-web</artifactId>
   <packaging>war</packaging>
+  
+    <dependencies>
+  	<dependency>
+  		<groupId>com.itheima</groupId>
+  		<artifactId>bos-service</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>

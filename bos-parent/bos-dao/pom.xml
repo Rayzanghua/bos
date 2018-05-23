@@ -6,4 +6,12 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>bos-dao</artifactId>
+  
+    <dependencies>
+  	<dependency>
+  		<groupId>com.itheima</groupId>
+  		<artifactId>bos-utils</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>

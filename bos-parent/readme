@@ -1,0 +1,130 @@
+http://localhost:8080/bos-web/easyui/02-accordion.jsp
+
+#问题
+	为什么struts中有个result没有配置
+	拦截器原理
+	ajax
+		可以弹出对话框吗	可以
+	spring接收一个select选择框传入的多个option的值
+	datagrid
+		返回失败decidejsp
+	实战：
+		回显tree	
+			按照之前的，先回显数据，然后通过js将tree树默认勾选
+			
+	Staff.jsp
+		手机校验，表单校验???
+		
+	hibernate
+		多对多插入，级联
+#chapter2
+	easyui
+		选项卡，类似于布局
+		$('#xId').tabs("add",{xParams})
+	Ztree树
+		主要是通过json数据
+#chapter3
+	easyui
+		消息显示框
+		memubutton按钮		
+		validatebox的使用，校验
+	配置拦截器
+		拦截后台界面的请求
+			原理？？
+	区域：国家划分的
+	分区：自定义的
+	定区：与快递员匹配
+#chapter4
+	easyui
+		表格
+	分页条件
+		HIbernate
+		
+#chapter5
+	不刷新页面上传文件
+	combobox
+		通过使用input设置下拉框，动态加载数据
+	修改subarea的hbm文件，主键生成策略
+	
+#chapter6
+	HIbernate的延迟加载
+		hibernate查询结果封装对象
+	json的循环转换	
+	Ctrl+Shift+I	查看运行结果debug
+	
+	ajax
+		可以弹出对话框吗
+		
+	文件下载
+		处理不同浏览器乱码问题
+		动态设置请求头
+	
+	定区对应多个分区
+	
+	HIbernate
+		主键生成策略为委派会导致发送的sql立即显示
+		如果不是委派那么在事务提交 才会显示sql
+		
+#chapter7
+	webservice是使用soap协议，基于http协议		
+		博大精深
+		由于没有id=1?name=xxx	这种的请求体，所以是post请求
+		通过生成代码，使用动态对象来使用方法
+	cxf
+		client通过配置文件获得bean来使用方法
+		
+#chapter8
+	左右移动select的ui
+		append是一个类似于剪切的效果
+	Struts2
+		前台通过select标签的name为customerIds是一个集合传到前台那么spring可以这样做处理吗
+	datagrid
+		返回失败decidejsp
+		
+#chapter9
+	号码存在
+		关联分区		自动派单		直接插入修改
+		不关联分区			不能自动派单		
+	号码不存在
+		理论应该向crm中插入客户信息	然后再进一步关联分区？不过应该不会自动关联分区
+		
+#chapter10
+	可能由于我用的是Eclipse，不能支持HIbernate的映射，导致对象注入失败，项目有问题		
+	因为struts框架跳转页面，所以可以不配置success的url
+	
+	要shiro认为认证通过才可以，不然登录之后又会调回登录界面
+	
+#chapter11
+	tasks可以查看所有的todo	
+	shiro标签连js都可以套
+	Subject subject=SubjectUtils.getSubject();	//是通过session中获得的吗
+	datagrid
+		分页条pagination属性
+			因为会带有参数传递，所以去掉了分页条会报错
+		fit:true	撑满属性
+		
+	由于Function有page属性，所以前台传递的时候，直接给page赋值了，导致pagebean没有
+	进而不能翻页
+	
+#chapter12
+	HIbernate配合comboxtree查询树控件	
+	
+	实战：
+		回显tree
+		
+	点击文字就会勾选checkbox
+	
+#chapter13
+	调度器---触发器----作业	
+	cron
+		*代表所有都匹配
+		?代表不做匹配
+		,代表和
+		/每隔多少多少
+	通过定时器发邮件
+	hchart
+		
+#chapter14
+	代码生成，就是一个模板freemarker		
+	水晶报表
+	润乾报表
